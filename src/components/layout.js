@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
     <div>
       <header>
         <div>
-        <Link to="/"><StaticImage src="../images/NFL_logo_PNG12.png" height={100} alt="NFL logo"></StaticImage></Link>
+        <Link to="/"></Link>
         </div>
         <h3>{data.site.siteMetadata.title}</h3>
         <nav className={nav}>
