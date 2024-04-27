@@ -1,0 +1,24 @@
+
+body {
+    margin: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav ul {
+    display: unset;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 1rem;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
