@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
-import { StaticImage } from 'gatsby-plugin-image';
 import { nav } from './layout.module.css';
 
 const Layout = ({ pageTitle, children }) => {
@@ -24,8 +23,14 @@ const Layout = ({ pageTitle, children }) => {
         <h3>{data.site.siteMetadata.title}</h3>
         <nav className={nav}>
           <ul>
-            <li>
+          <li>
               <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/index_problem/">Problem</Link>
+            </li>
+            <li>
+              <Link to="/index_solution/">Solution</Link>
             </li>
           </ul>
         </nav>

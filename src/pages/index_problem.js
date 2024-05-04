@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import ButtonSolution from "../components/button-solution";
+//import your custom component here
 
 const IndexPage = () => {
 
@@ -8,7 +8,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <main>
-        <ButtonSolution />
+        {/* Write a custom component to make render an image using the react-dom package
+        */}
       </main>
     </Layout>
   );

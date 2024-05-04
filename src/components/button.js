@@ -1,32 +1,18 @@
 import * as React from "react";
-import { createRoot } from 'react-dom/client';
-import { Link, graphql, useStaticQuery } from "gatsby";
+// import everything that you will need from react-dom and gatsby
 import "./button.module.css";
 
-// eslint-disable-next-line no-empty-pattern
 const Button = ({}) => {
-    const data = useStaticQuery(graphql`
-    query { pictures {
-        author
-        download_url
-        height
-        id
-        url
-        width
-      }
-    }
-    `);
-const imageEle = data.pictures.download_url
+    // Write a static query to access allPictures in GraphQl.
+
+    // Create a variable to access the download_url which will render a picture
+    // in your page. 
   return (
     <button
       onClick={() => {
-    //     const num = Math.round(Math.random() * 32);
-    //    alert(data.pictures.download_url)
-    const root = createRoot(
-        document.getElementById('___gatsby')
-      );
-      const element = <img src={imageEle} width={600}></img>/*<h1>Hello, world</h1>;*/
-      root.render(element);
+        // Use the createRoot and render methods in the onClick handler
+        // The render method should return an image to the page using JSX 
+    
       }}
     >
       Click me!

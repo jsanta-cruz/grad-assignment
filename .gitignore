@@ -9,3 +9,4 @@ public
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+index-gatsby.js
