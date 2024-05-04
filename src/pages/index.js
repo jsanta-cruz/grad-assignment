@@ -15,7 +15,9 @@ const IndexPage = () => {
           <li>React onClick handler</li>
           <li>React createRoot and render methods</li>
         </ul>
-        <p>Refer to the README file for details for dependencies</p>
+        <p>The goal of the assignment is to understand how to use Gatsby to 
+          build a custom component that uses React to render an image with 
+          click handler. Refer to the README file for details for dependencies</p>
       </main>
     </Layout>
   );
