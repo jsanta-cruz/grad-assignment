@@ -11,13 +11,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/data/`,
-      },
-    },
+
   //   "gatsby-plugin-mdx", {
   //   resolve: 'gatsby-source-filesystem',
   //   options: {
